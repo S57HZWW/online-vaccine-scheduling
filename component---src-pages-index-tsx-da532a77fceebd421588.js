@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{QeBL:function(n,e,l){"use strict";l.r(e);l("q1tI");var t=l("Wbzz"),c=l("NqE+"),u=l("TBFr"),a=l("+ego"),d=l("qKvR");e.default=function(){return Object(d.d)(a.a,null,Object(d.d)(c.a,null,Object(d.d)(u.a,null,Object(d.d)("h1",null,"COVID-19 Vaccine Scheduling Instructions"),Object(d.d)("ul",null,Object(d.d)("li",null,Object(d.d)(t.a,{to:"/walgreens/intro"},"Walgreens"))))))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-da532a77fceebd421588.js.map
