@@ -1,15 +1,14 @@
 'use strict'
 
 module.exports = {
+  pathPrefix: "/online-vaccine-scheduling",
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
+    title: "Unofficial Online COVID-19 Vaccine Scheduling Instructions",
+    description: "Some instructions to help folks schedule their COVID-19 vaccine.",
     siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
+      name: '',
+      url: '',
     }
   },
   plugins: [
@@ -51,10 +50,26 @@ module.exports = {
         siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
       }
     },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
     'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    'gatsby-remark-component',
+    'gatsby-plugin-remove-trailing-slashes'
   ]
 }

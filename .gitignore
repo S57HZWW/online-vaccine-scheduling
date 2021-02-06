@@ -113,3 +113,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+*.swp
+*.swo
+*.iml
+.idea

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Page from '../components/Page'
 import Container from '../components/Container'
@@ -31,6 +31,8 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => (
   <IndexLayout>
     <Page>
       <Container>
+        <Link to="../intro">Table of Contents</Link>
+
         <h1>{data.markdownRemark.frontmatter.title}</h1>
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
