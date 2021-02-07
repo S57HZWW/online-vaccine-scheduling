@@ -3,7 +3,7 @@ layout: page
 title: 'Choosing your COVID-19 vaccination site on Walgreens.com'
 ---
 
-> 📢 Walgreens availability for 4 days out is available daily at 12:00 AM local time. You may want to consider performing these steps around that time. However, availability does come and go throughout the day as well.
+> 📢 Walgreens availability for 4 days out is available daily at 12:00 AM local time and there have been reports of availability around 4:00 AM - 7:00 AM CST and 2:00 PM - 4:00 PM CST. You may want to consider performing these steps around those times. However, availability does come and go throughout the day as well.
 
 1. Enter your zip, city, or state into the input box
 2. Press the magnifying glass to the right to search for available locations
