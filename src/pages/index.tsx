@@ -16,6 +16,9 @@ const IndexPage = () => (
           <li>
             <Link to="./walgreens/intro">Walgreens</Link>
           </li>
+          <li>
+            <Link to="./walmart/intro">Walmart</Link>
+          </li>
         </ul>
 
         <h2>Illinois</h2>
